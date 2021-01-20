@@ -30,7 +30,6 @@ water = {
 	'h vap 0°C': 2501*1000,     # J/kg
 }
 
-
 class humidair():
 	"""Implements humid air (substance), which wraps some functions of psychrolib
 	(https://github.com/psychrometrics/psychrolib)"""

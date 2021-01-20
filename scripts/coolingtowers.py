@@ -28,7 +28,7 @@ Q_ = ureg.Quantity
 
 # DK
 from scripts.DK_thermo import *
-from DK_Collections import basic_plot_polishing
+#from DK_Collections import basic_plot_polishing
 
 # Constants from DK_thermo
 cp_water= Q_(water['cp'], 'J/(kg*delta_degC)')
