@@ -16,10 +16,8 @@ Version:    Early
 """
 # Python
 from os import path
-import warnings
 
 # Scipy ecosystem
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -29,7 +27,7 @@ ureg = UnitRegistry()
 Q_ = ureg.Quantity
 
 # DK
-from DK_thermo import *
+from scripts.DK_thermo import *
 from DK_Collections import basic_plot_polishing
 
 # Constants from DK_thermo
