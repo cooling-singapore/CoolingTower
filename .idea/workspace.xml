@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c05cb179-b474-4ac2-943a-75d0cba0d918" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Cooling Tower description.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputs/CT units per bldg(byT) (Jun 04 BAU).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/Scenario1/[CBD-decentralized-cooling towers-WT3] Air Mass Flow [kg d.a. per s].csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/Scenario1/[CBD-decentralized-cooling towers-WT3] Exhaust Speed [m per s].csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/Scenario1/[CBD-decentralized-cooling towers-WT3] Humidty Ratio [kg vapor per kg d.a.].csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/Scenario1/[CBD-decentralized-cooling towers-WT3] Temp Dry Bulb [°C].csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Air Mass Flow [kg d.a. per s].csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Exhaust Speed [m per s].csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Humidty Ratio [kg vapor per kg d.a.].csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Temp Dry Bulb [°C].csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/main-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/main-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputs/catalog.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/inputs/catalog.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inputs/demand.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/inputs/demand.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,16 +26,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/coolingtowers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="717" column="50" lean-forward="true" selection-start-line="717" selection-start-column="50" selection-end-line="717" selection-end-column="50" />
+              <caret line="717" column="50" selection-start-line="717" selection-start-column="50" selection-end-line="717" selection-end-column="50" />
               <folding>
                 <element signature="e#331#350#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Air Mass Flow [kg d.a. per s].csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Exhaust Speed [m per s].csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Humidty Ratio [kg vapor per kg d.a.].csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/outputs/Scenario1/[CBD-decentralized-cooling towers-WT3] Air Mass Flow [kg d.a. per s].csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="485" lean-forward="true" selection-start-line="3" selection-start-column="485" selection-end-line="3" selection-end-column="485" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inputs/CT units per bldg(byT) (Jun 04 BAU).csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Temp Dry Bulb [°C].csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -111,6 +160,17 @@
             <path>
               <item name="CoolingTower" type="b2602c69:ProjectViewProjectNode" />
               <item name="CoolingTower" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoolingTower" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoolingTower" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+              <item name="Scenario1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoolingTower" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoolingTower" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -127,12 +187,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/inputs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/outputs/Scenario1" />
+      <recent name="$PROJECT_DIR$/outputs/Scenario2" />
+      <recent name="$PROJECT_DIR$/outputs" />
+      <recent name="$PROJECT_DIR$/inputs" />
       <recent name="$PROJECT_DIR$/docs" />
-      <recent name="$PROJECT_DIR$/scripts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/inputs" />
     </key>
   </component>
@@ -201,18 +263,17 @@
       <option name="presentableId" value="Default" />
       <updated>1611128228055</updated>
       <workItem from="1611128231521" duration="6595000" />
-      <workItem from="1611301042190" duration="1162000" />
+      <workItem from="1611301042190" duration="2395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7757000" />
+    <option name="totallyTimeSpent" value="8990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="23" width="1227" height="777" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19578059" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.51898736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -290,10 +351,40 @@
     <entry file="file://$PROJECT_DIR$/scripts/coolingtowers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="717" column="50" lean-forward="true" selection-start-line="717" selection-start-column="50" selection-end-line="717" selection-end-column="50" />
+          <caret line="717" column="50" selection-start-line="717" selection-start-column="50" selection-end-line="717" selection-end-column="50" />
           <folding>
             <element signature="e#331#350#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Air Mass Flow [kg d.a. per s].csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Exhaust Speed [m per s].csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Temp Dry Bulb [°C].csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Humidty Ratio [kg vapor per kg d.a.].csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/Scenario1/[CBD-decentralized-cooling towers-WT3] Air Mass Flow [kg d.a. per s].csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="485" lean-forward="true" selection-start-line="3" selection-start-column="485" selection-end-line="3" selection-end-column="485" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputs/CT units per bldg(byT) (Jun 04 BAU).csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
