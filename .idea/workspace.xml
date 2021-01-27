@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c05cb179-b474-4ac2-943a-75d0cba0d918" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/main-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/main-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputs/demand.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/inputs/demand.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputs/weather.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/inputs/weather.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/T_out.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/airflow.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/design.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/hwt.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/waterflow.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/coolingtowers.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/coolingtowers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +18,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/coolingtowers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="746" column="22" selection-start-line="746" selection-start-column="4" selection-end-line="746" selection-end-column="22" />
-              <folding>
-                <element signature="e#331#350#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="334">
+              <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/DK_thermo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -47,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -89,6 +96,7 @@
         <option value="$PROJECT_DIR$/main.ipynb" />
         <option value="$PROJECT_DIR$/scripts/coolingtowers.py" />
         <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -221,18 +229,18 @@
       <workItem from="1611128231521" duration="6595000" />
       <workItem from="1611301042190" duration="2807000" />
       <workItem from="1611576937082" duration="6467000" />
-      <workItem from="1611736744656" duration="1612000" />
+      <workItem from="1611736744656" duration="1953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17481000" />
+    <option name="totallyTimeSpent" value="17822000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="23" width="1227" height="777" extended-state="6" />
+    <frame x="54" y="23" width="1227" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22025317" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22616033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -252,7 +260,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32959446" />
-      <window_info anchor="right" x="0" y="0" width="250" height="577" id="Documentation" order="4" side_tool="true" visible="true" weight="0.029535865" />
+      <window_info anchor="right" x="0" y="0" width="250" height="577" id="Documentation" order="4" side_tool="true" visible="true" weight="0.15696202" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
@@ -273,13 +281,6 @@
     <entry file="file://$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Temp Dry Bulb [°C].csv" />
     <entry file="file://$PROJECT_DIR$/outputs/Scenario2/[CBD-S2 DCS 100-WT3] Humidty Ratio [kg vapor per kg d.a.].csv" />
     <entry file="file://$PROJECT_DIR$/outputs/Scenario1/[CBD-decentralized-cooling towers-WT3] Temp Dry Bulb [°C].csv" />
-    <entry file="file://$PROJECT_DIR$/scripts/DK_thermo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1085">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inputs/CT units per bldg(byT) (Jun 04 BAU).csv" />
     <entry file="file://$PROJECT_DIR$/outputs/Scenario1/[CBD-decentralized-cooling towers-WT3] Exhaust Speed [m per s].csv" />
     <entry file="file://$PROJECT_DIR$/outputs/Scenario1/[CBD-decentralized-cooling towers-WT3] Air Mass Flow [kg d.a. per s].csv" />
@@ -288,16 +289,6 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/coolingtowers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="746" column="22" selection-start-line="746" selection-start-column="4" selection-end-line="746" selection-end-column="22" />
-          <folding>
-            <element signature="e#331#350#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -339,8 +330,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/coolingtowers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/DK_thermo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
