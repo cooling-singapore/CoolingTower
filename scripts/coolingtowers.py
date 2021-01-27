@@ -734,6 +734,51 @@ def parse_BldgToCTs(BldgToCTs, CT_catalog):
     return AllCTs
 
 
+def find_upper_neighbours(value, df, colname):
+    exactmatch = df[df[colname] == value]
+    if not exactmatch.empty:
+        return exactmatch.index
+    else:
+        lowerneighbour_ind = df[df[colname] < value][colname].idxmax()
+        upperneighbour_ind = df[df[colname] > value][colname].idxmin()
+        upperneighbour = df[colname][upperneighbour_ind]
+        return upperneighbour
+
+def size_cooling_tower(group_demand_df, CT_catalog, BASE_CT_THRESHOLD, OVERDIMENSIONING_THRESHOLD):
+    BldgToCTs = {}
+    for (group, demand) in group_demand_df.iteritems():
+        peak = max(demand)
+
+        #every CT has three main units
+        #1. a base unit
+        baseload = BASE_CT_THRESHOLD * peak
+        base_unit_size = baseload * (1+OVERDIMENSIONING_THRESHOLD)
+        #2. a intermediate unit
+        average = np.mean(demand.replace(0, np.NaN))
+        intermediate_unit_size = (average - baseload) * (1+OVERDIMENSIONING_THRESHOLD)
+        #3. a peak unit
+        peak_unit_size = (peak - average) * (1+OVERDIMENSIONING_THRESHOLD)
+
+
+        # checks
+        if peak_unit_size > CT_catalog['Capacity [kW]'].min():
+            peak_unit_size = find_upper_neighbours(peak_unit_size, CT_catalog, 'Capacity [kW]')
+        else:
+            peak_unit_size = CT_catalog['Capacity [kW]'].min()
+
+        if intermediate_unit_size > CT_catalog['Capacity [kW]'].min():
+            intermediate_unit_size = find_upper_neighbours(intermediate_unit_size, CT_catalog, 'Capacity [kW]')
+        else:
+            intermediate_unit_size = CT_catalog['Capacity [kW]'].min()
+
+        if base_unit_size > CT_catalog['Capacity [kW]'].min():
+            base_unit_size = find_upper_neighbours(base_unit_size, CT_catalog, 'Capacity [kW]')
+        else:
+            base_unit_size = CT_catalog['Capacity [kW]'].min()
+
+        BldgToCTs[group] = peak_unit_size, intermediate_unit_size, base_unit_size
+    return BldgToCTs
+
 def calc_CTheatload(BldgDemand, BldgToCTs, CT_catalog, t_from=None, t_to=None):
     """Calculates the CT heat load to be passed to simulate_CT() by allocating the total heat load to all the CTs by
     their capacity (i.e. no smart scheduling of CTs accdg. to load).
